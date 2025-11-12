@@ -4,9 +4,10 @@
   "description": "Simple Rock-Paper-Scissors game with Jest tests and GitHub Actions CI.",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js",
-    "test": "jest --coverage"
-  },
+  "build": "echo 'Build step: nothing to compile, just checking structure'",
+  "start": "node src/app.js",
+  "test": "jest --coverage"
+},
   "author": "",
   "license": "MIT",
   "devDependencies": {
