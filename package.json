@@ -1,0 +1,15 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "Simple Rock-Paper-Scissors game with Jest tests and GitHub Actions CI.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
